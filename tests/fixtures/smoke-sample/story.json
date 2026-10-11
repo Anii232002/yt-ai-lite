@@ -1,0 +1,73 @@
+{
+ "working_title": "The Jet That Ran Out of Sky",
+ "format": "this_really_happened",
+ "beats": [
+  {
+   "id": "cold_open",
+   "narration": "Forty-one thousand feet up, both engines of a passenger jet go silent. Sixty-nine people are aboard.",
+   "on_screen": "41,000 FEET",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "airliner cockpit at dusk, warning lights glowing red across the panel, a pilot's hands gripping the yoke, clouds below the windshield"
+   },
+   "target_seconds": 4,
+   "pronunciation": {}
+  },
+  {
+   "id": "fuel",
+   "narration": "The reason is almost too simple: the fuel was loaded by the wrong unit.",
+   "on_screen": "",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "close view of a fuel gauge panel with the needles at empty, harsh red cockpit light, shallow depth of field"
+   },
+   "target_seconds": 4,
+   "pronunciation": {}
+  },
+  {
+   "id": "glide",
+   "narration": "With no thrust, a jet does not fall. It glides, and the captain happens to be a glider pilot.",
+   "on_screen": "",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "a large airliner gliding silently over a dark prairie at sunset, engines still, long shadow on the fields"
+   },
+   "target_seconds": 4,
+   "pronunciation": {}
+  },
+  {
+   "id": "target",
+   "narration": "The nearest airfield in reach is a former air force base at Gimli, Manitoba.",
+   "on_screen": "GIMLI, MANITOBA",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "view down a long concrete runway at dusk seen from the cockpit, tiny shapes of people and cars on the far end"
+   },
+   "target_seconds": 5,
+   "pronunciation": {}
+  },
+  {
+   "id": "landing",
+   "narration": "It is a car-racing weekend. Racers and spectators are on the old runway as the jet comes in without a sound.",
+   "on_screen": "",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "wide shot of an airliner descending toward a runway lined with parked cars and picnic tables, people turning to look up"
+   },
+   "target_seconds": 6,
+   "pronunciation": {}
+  },
+  {
+   "id": "close",
+   "narration": "The nose wheel folds on touchdown. The jet slides to a stop, and nobody is killed. So how do you glide a jet that heavy?",
+   "on_screen": "",
+   "visual": {
+    "type": "scene",
+    "image_prompt": "airliner stopped on its nose on a runway, emergency slides deployed, passengers walking away in golden evening light"
+   },
+   "target_seconds": 6,
+   "pronunciation": {}
+  }
+ ],
+ "estimated_seconds": 51
+}

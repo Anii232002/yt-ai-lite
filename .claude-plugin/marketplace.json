@@ -1,0 +1,14 @@
+{
+  "name": "yt-ai-lite",
+  "owner": {
+    "name": "Aniruddh"
+  },
+  "plugins": [
+    {
+      "name": "yt-ai-lite",
+      "source": "./",
+      "description": "Free Claude Code skills that turn a topic into a validated short-video script and a voiceover.",
+      "version": "1.0.0"
+    }
+  ]
+}

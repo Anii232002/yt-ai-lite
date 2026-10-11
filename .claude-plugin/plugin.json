@@ -1,0 +1,16 @@
+{
+  "name": "yt-ai-lite",
+  "version": "1.0.0",
+  "description": "Free Claude Code skills that turn a topic into a validated short-video script and a voiceover.",
+  "author": {
+    "name": "Aniruddh"
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "shorts",
+    "script",
+    "voiceover",
+    "elevenlabs"
+  ]
+}

@@ -1,0 +1,5 @@
+requests>=2.31
+
+# Optional: free local voice (also needs espeak-ng and `narrate.py --download-models`)
+# kokoro-onnx
+# soundfile

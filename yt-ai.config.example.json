@@ -1,0 +1,73 @@
+{
+  "story": {
+    "default_format": "you_are_there",
+    "formats": [
+      "you_are_there",
+      "what_if",
+      "this_really_happened"
+    ],
+    "require_known_facts_for": [
+      "this_really_happened"
+    ],
+    "words_per_second": 2.15,
+    "estimate_tolerance": 0.2,
+    "max_seconds_warning": 90,
+    "hook": {
+      "no_date_opening": true,
+      "opening_words": 12,
+      "window_enabled": true,
+      "window_seconds": 15,
+      "window_beats": 3
+    },
+    "prompt_file": "prompts/story.md",
+    "notes_file": "prompts/notes.md"
+  },
+  "illustrate": {
+    "model": "klein",
+    "models": {
+      "klein": "black-forest-labs/flux-2-klein-4b",
+      "pro": "black-forest-labs/flux-1.1-pro"
+    },
+    "aspect_ratio": "9:16",
+    "style_prefix": "Cinematic, atmospheric, moody lighting, dramatic composition, photographic realism, film-still quality, no text, no watermark, no letters, no numbers, vertical 9:16 framing. Depicting: ",
+    "request_spacing_seconds": 0,
+    "max_retries": 5
+  },
+  "narrate": {
+    "engine": "elevenlabs",
+    "beat_gap_ms": 350,
+    "elevenlabs": {
+      "voice_id": "",
+      "model_id": "eleven_flash_v2_5",
+      "stability": 0.6,
+      "similarity_boost": 0.75
+    },
+    "kokoro": {
+      "voice": "am_michael",
+      "speed": 0.82
+    }
+  },
+  "align": {
+    "whisper_model": "small",
+    "end_pad_seconds": 1.0
+  },
+  "render": {
+    "brand_text": "",
+    "accent_color": "#7c3aed",
+    "font_family": "system-ui, sans-serif",
+    "caption_font_size": 38,
+    "caption_bottom": 420,
+    "show_waveform": true,
+    "show_on_screen_text": true,
+    "timeout_ms": 120000,
+    "browser_executable": ""
+  },
+  "pricing_estimates": {
+    "_note": "Rough USD estimates used only for the end-of-run cost summary. Check your providers' current pricing.",
+    "image_usd": {
+      "klein": 0.015,
+      "pro": 0.04
+    },
+    "elevenlabs_usd_per_1k_chars": 0.04
+  }
+}

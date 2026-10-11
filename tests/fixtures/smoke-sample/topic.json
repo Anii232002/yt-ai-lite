@@ -1,0 +1,17 @@
+{
+ "format": "this_really_happened",
+ "premise": "A passenger jet runs out of fuel at cruising altitude and the pilots glide it to a landing on a disused airfield.",
+ "known_facts": [
+  "Air Canada Flight 143 was a Boeing 767 flying from Montreal to Edmonton in July 1983.",
+  "69 people were aboard: 61 passengers and 8 crew.",
+  "Both engines failed at about 41,000 feet because the aircraft had been fuelled with the wrong amount of fuel.",
+  "The airline's fleet was in the middle of switching from pounds to kilograms, and the crew's fuel calculation mixed up the units.",
+  "The captain was an experienced glider pilot.",
+  "The aircraft glided to Gimli, Manitoba, a former air force base then used for car racing.",
+  "The nose gear collapsed on landing, but nobody was killed.",
+  "Racers and spectators were on the former runway when the aircraft landed."
+ ],
+ "constraints": [
+  "Do not name the crew."
+ ]
+}
